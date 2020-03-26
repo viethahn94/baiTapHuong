@@ -1,8 +1,9 @@
 #include <iostream>
 #include <iomanip>
+using namespace std;
 
 int main() {
-  using namespace std;
+
   int a;
   long b;
   char c;
@@ -20,6 +21,6 @@ int main() {
               << "\n" << c << "\n";
   cout   << fixed;
   cout   << setprecision(3) << d << "\n";
-  cout   << setprecision(9) << e ;
+  cout   << setprecision(9) << e;
   return 0;
 }

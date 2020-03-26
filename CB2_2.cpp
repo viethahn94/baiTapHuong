@@ -1,8 +1,9 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main() {
-  using namespace std;
+
   string ten;
   int tuoi;
   cout << "Nhap ten va tuoi" << "\n";
