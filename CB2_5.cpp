@@ -8,8 +8,7 @@ int main() {
   cout << "Hay nhap vao gia tri a" << "\n";
   cin >> a;
 
-  cout   << fixed;
-  cout   << setprecision(3) << (double)a << "\n";
+  cout   << fixed << setprecision(3) << (double)a << "\n";
 
   return 0;
 }
