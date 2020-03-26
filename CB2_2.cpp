@@ -2,12 +2,13 @@
 #include <string>
 
 int main() {
-  std::string ten;
+  using namespace std;
+  string ten;
   int tuoi;
-  std::cout << "Nhap ten va tuoi" << "\n";
-  std::cin >> ten;
-  std::cin >> tuoi;
-  std::cout << "Ho ten: " << ten << "\n";
-  std::cout << "Tuoi: " << tuoi << "\n";
+  cout << "Nhap ten va tuoi" << "\n";
+  cin >> ten;
+  cin >> tuoi;
+  cout << "Ho ten: " << ten << "\n";
+  cout << "Tuoi: " << tuoi;
   return 0;
 }
