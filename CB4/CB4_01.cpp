@@ -9,7 +9,7 @@ int main() {
   cin >> b;
   cin >> c;
 
-  if (a==b & b==c) {
+  if (a == b & b == c) {
     cout << "true" << '\n';
   }
   else {

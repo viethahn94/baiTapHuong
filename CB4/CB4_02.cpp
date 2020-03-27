@@ -12,19 +12,19 @@ int main() {
 
   switch (c){
     case '*':
-      cout << a*b << '\n';
+      cout << a*b;
       break;
     case '/':
-      cout << a/b << '\n';
+      cout << (float)a/b;
       break;
     case '+':
-      cout << a+b << '\n';
+      cout << a+b;
       break;
     case '-':
-      cout << a-b << '\n';
+      cout << a-b;
       break;
     default:
-      cout << "Khong the thuc hien phep toan" << '\n';
+      cout << "Khong the thuc hien phep toan";
       break;
   }
 
