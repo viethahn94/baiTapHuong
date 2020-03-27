@@ -9,17 +9,17 @@ int main() {
   char c;
   float d;
   double e;
-  cout << "Hay nhap vao a, b, c, d, e" << "\n";
-  cin >> a;
-  cin >> b;
-  cin >> c;
-  cin >> d;
-  cin >> e;
+  cout  << "Hay nhap vao a, b, c, d, e" << "\n";
+  cin   >> a;
+  cin   >> b;
+  cin   >> c;
+  cin   >> d;
+  cin   >> e;
 
-  cout   << "\n" << a
-              << "\n" << b
-              << "\n" << c << "\n";
-  cout   << fixed << setprecision(3) << d << "\n"
+  cout  << "\n" << a
+        << "\n" << b
+        << "\n" << c << "\n";
+  cout  << fixed  << setprecision(3) << d << "\n"
                   << setprecision(9) << e;
   return 0;
 }
