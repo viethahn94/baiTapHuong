@@ -7,7 +7,7 @@ int main() {
   cin >> F;
   float C = (F-32)*5/9,
         K = C + 273.15;
-  std::cout << "Do C la: " << C << '\n'
+  cout << "Do C la: " << C << '\n'
             << "Do K la: " << K;
 
 
