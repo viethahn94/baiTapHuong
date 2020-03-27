@@ -19,8 +19,7 @@ int main() {
   cout   << "\n" << a
               << "\n" << b
               << "\n" << c << "\n";
-  cout   << fixed;
-  cout   << setprecision(3) << d << "\n";
-  cout   << setprecision(9) << e;
+  cout   << fixed << setprecision(3) << d << "\n"
+                  << setprecision(9) << e;
   return 0;
 }
