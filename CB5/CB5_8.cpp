@@ -11,6 +11,7 @@ int main() {
   int nam;
   cout << "Nhap vao so nam" << '\n';
   cin >> nam;
+
   cout << "Nam "<< nam << " la nam " <<Can[int(nam%10)]  <<" "<< Chi[int(nam%12)]<< '\n';
 
   return 0;
